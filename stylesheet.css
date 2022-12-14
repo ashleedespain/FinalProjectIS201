@@ -1,0 +1,116 @@
+/*this sheet needs:
+    styles to specify font color
+    styles to specify font family
+    at least 3 divs positioned and styled using my styles
+    at least 4 styles definitions (will be more)
+    */
+.travelimage{
+    width: 400px;
+    margin-top: 40%;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #c55e35;
+    /* color: #f0ece2;
+    -webkit-text-stroke: .8px #857869; */
+    color: whitesmoke;
+    -webkit-text-stroke: .2px #f0ece2;
+    text-align: center;
+    vertical-align: top;
+    height: 120px;
+    font-weight: bold;
+}
+
+.nav h1{
+    text-align: center;
+}
+
+.nav h2{
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ecdfcf;
+    color: #4d4439;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #c7b198;
+    border-bottom: 1px solid #c7b198;
+    border-right: 1px solid #4d4439;
+    border-left: 1px solid #4d4439;
+}
+
+.nav a:visited{
+    color: #4d4439;
+    text-decoration: none;
+}
+
+.nav a:link{
+    color: #4d4439;
+    text-decoration: none;
+}
+
+
+.content{
+    position: fixed;
+    height: calc(100vh - 121px);
+    overflow-x: auto;
+    top: 121px;
+    left: 0px;
+    background-color: #f0ece2;
+    color: #857869;
+    overflow-y: auto;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#louisiana{
+    color: rgb(128, 8, 128);
+}
+
+#texas{
+    color: rgb(64, 64, 144);
+}
+
+
+body{
+    overflow-y: hidden;
+}
+
+.locationinfo{
+    height: 100vh;
+}
+
+.merrychristmas{
+    height: 150vh;
+    text-align: center;
+    color: rgb(252, 54, 54);
+    background-color: rgb(126, 221, 189);
+}
+
+.sectionrow{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section{
+    float: left;
+    width: 33%;
+    vertical-align: top;
+}
+
+.rightside img{
+    float: right;
+}
+
+.tableauPlaceholder{
+    margin: auto;
+}
